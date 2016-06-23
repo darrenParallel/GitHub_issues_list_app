@@ -12,7 +12,7 @@ This is a simple app that can be installed into your website. Currently expects 
 
 Anyway free to use just add my author info please. 
 And if you are doing an assessment don't be an idiot, make your own and learn.
-Simply speaking this app was disigned as an assessment. Not my best work but It at least shows how I think.
+Simply speaking this app was designed as an assessment. Not my best work but It at least shows how I think.
 
 If it helps you're welcome. Its just a neat list, Using the Github API of all specified repo issues, this is saved into a JSON for easy access.
 It also allows you to add new issues and view an error log. Quite basic.
