@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #434343;
+	margin: 0;
+	padding: 0;
+	color: #333333;
+}
+
+th {
+	padding: 6px;
+	border-size: 1px;
+    background: #5cadff;
+	font-size: 12px;
+	border: 1px solid black;
+} 
+
+td {
+	padding: 4px;
+	border-size: 1px;
+    word-wrap: break-word;
+	font-size: 12px;
+	border: 1px solid black;
+} 
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+}
+
+a:link {
+	color: #48484C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #333333;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: #48484C;
+	text-outline:#000;
+}
+
+header {
+	background-color: #4d57db;
+	height: 50px;
+	text-align:center;
+}
+
+#buttons button {
+    background-color: #4d57db;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.content {
+	padding: 10px 20px;
+	width: 940px;
+	float: left;
+}
+
+.container {
+	width: 1140px;
+	background-color: #F2F2F4;
+	margin: 0 auto;
+	height: auto;
+}
+
+#err-div {
+	display: none;
+}
+
+#add-div {
+	display: none;
+}
+
+#datatable {
+	table-layout:fixed;
+	padding: 5px 5px 2px 0px;
+}
+
+#datatable tr:nth-child(even) {
+	background: #7bdbff;
+}
+
+#datatable tr:nth-child(odd) {
+	background: #c9f0ff;
+}
+
+#datatable td {
+	padding: 5px 5px 2px 8px;
+	word-wrap: break-word;
+}
+
+.tablegen td {
+	background: #7bdbff;
+	height: 50px;
+	padding: 5px 5px 2px 8px;
+	table-layout:fixed;
+}
+
+.footer-content {
+	padding: 10px 20px;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../images/loading.gif') 50% 20% no-repeat rgb(249,249,249);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+	filter: alpha(opacity=50);  /* IE 5-7 */
+	-moz-opacity: 0.5;          /* Netscape */
+	-khtml-opacity: 0.5;        /* Safari 1.x */
+	opacity: 0.5;               /* Good browsers */\
+	display: none;
+}
+
+footer {
+	padding: 10px 0;
+	background-color: #3782ff;
+	position: relative;
+	clear: both; 
+}
+
+footer button {
+ 	background-color: #3782ff;
+    border: none;
+    color: #333;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+header, section, footer, figure {
+	display: block;
+}
+
+span {
+	color: #333333;
+}
